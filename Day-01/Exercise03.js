@@ -27,11 +27,11 @@ let tripPercent = 0.10;
 
 console.log("----USA Trip----");
 
-console.log("people: {numbPeople}");
+console.log("people:",{numbPeople});
 
-console.log("Hotel: {hotelCost}");
-console.log("Food: {foodCost}");
-console.log("Transport: {transportCost}");
+console.log("Hotel:",{hotelCost});
+console.log("Food:", {foodCost});
+console.log("Transport:", {transportCost});
 
 console.log("-------------------");
 
@@ -40,18 +40,18 @@ totalCost = hotelCost + foodCost + transportCost;
 
 
 
-console.log("Subtotal: {totalCost}");
+console.log("Subtotal:",{totalCost});
 
 //calculate the tripAmount
 tipAmount = totalCost * tripPercent;
 
-console.log("Tip (10%):",{tipAmount})
+console.log("Tip (10%):",{tipAmount});
 
 //calculate the grandTotal
 grandTotal = totalCost + tipAmount;
 
-console.log("Grand Total:",{grandTotal})
-console.log("---------------------")
+console.log("Grand Total:",{grandTotal});
+console.log("---------------------");
 
 //calculate costPerPerson
 costPerPerson = grandTotal / numbPeople;
