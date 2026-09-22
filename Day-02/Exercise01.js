@@ -17,3 +17,24 @@ if (score >= 90){
     console.log("your Grade is : F")
 }
 
+// let's try with switch operator.
+
+const bracket = Math.floor(score /10);
+
+switch (bracket){
+  case 9:
+  case 10:
+    console.log("Your Grade is: A");
+    break; 
+  case 8:
+    console.log("Your Grade is: B");
+    break;
+  case 7:
+    console.log("Your Grade is: C");
+    break;
+  case 6:
+    console.log("Your Grade is: D");
+    break;
+  default:
+    console.log("Your Grade is: F")
+}
